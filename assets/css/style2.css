@@ -86,9 +86,14 @@ html {
   box-shadow: 0 4px 8px lightgrey;
 }
 
-.graybg {
- background-color: #b5b5b6;
+.gray {
+  background-color: #fafafa;
+
 }
+
+/*.graybg {
+ background-color: #b5b5b6;
+}*/
 
 .photosize {
   max-height: 150px;
