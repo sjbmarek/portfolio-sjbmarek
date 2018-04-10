@@ -5,7 +5,7 @@ body {
   margin-top: 0;
   margin-right: 0;
   margin-left: ;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
   line-height: 130%;
   color: #777777;
@@ -68,13 +68,17 @@ html {
 
 .aboutme{
   height:500px;
-  background-color: #848486;
+  background-color: white;
   /*line-height: 30px !important;*/
-  color: #d99da3;
+  /*color: #848486;*/
+}
+
+.mynameis {
+  color: #dddddd;
 }
 
 .name {
-  color: white;
+  color: #848486;
 }
 
 .lh {
@@ -97,4 +101,63 @@ html {
 
 .photosize {
   max-height: 150px;
+}
+
+
+/*CSS for image reveal slider*/
+
+.testContainer {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 900px) {
+  .testContainer {
+    width: 150px;
+    height: 150px;
+  }
+}
+.hiddenImage {
+  height: 100%;
+  position: relative;
+}
+.hiddenImage img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.featured {
+  position: absolute;
+  background: url("../images/susanccc.png") no-repeat;
+  /*background: url("https://slm-assets2.secondlife.com/assets/3789218/lightbox/512x512%20PNG%20Landscape%20Texture%20-%20Blue%20Sky.jpg") no-repeat;*/
+  background-size: auto 100%;
+  width: 100%;
+  height: 100%;
+}
+.reveal {
+  z-index: 900;
+  height: 100%;
+  border-left: 6px solid #555;
+  /*border-right: 6px solid #555;*/
+  position: absolute;
+  right: 0;
+  cursor: col-resize;
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.reveal:after {
+  z-index: 900;
+  content: "\2194";
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+  color: #f1f1f1;
+  background: #555;
+  position: absolute;
+  left: -25px; top: 0; bottom: 0;
+  margin: auto;
 }

@@ -5,6 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+  crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -41,32 +51,52 @@
 
 	<div class="container-fluid gray">
 		<div class = "row shadow mb-3">
-			<div class = "col-md-5 m-0 p-5 aboutme ">
-				<p class = "display-4 m-0 lh font-weight-bold">MY<br>NAME<br>IS:</p>
-				<p class = "display-4 name m-0 lh font-weight-bold">SUSAN<br>MAREK </p><br><br>
-				<p class ="text-white font-weight-light">Full stack web developer - clean, minimal UI aesthetic. <br>
+<!-- 			<div class = "col-md-5 m-0 p-5 aboutme ">
+				<p class = "display-4 m-0 lh mynameis">MY<br>NAME<br>IS:</p>
+				<p class = "display-4 m-0 lh name">SUSAN<br>MAREK </p><br><br>
+				<p class ="name">Full stack web developer - coder, minimal UI aesthetic. <br>
+				Resume<br>
+				Linked In<br>
+				GitHub</p>
+				<img src="assets/images/susanccc.png" class="img-fluid photome m-0 p-0 float-right" alt="Susan Marek">
+
+			</div> -->
+	
+			<div class = "col-md-7 m-0 pl-5 pr-0 aboutme">
+			<div class="testContainer mr-4">
+			  <div class="hiddenImage">
+<!-- 
+			  	  <img src="assets/images/susanccc.png" /> -->
+			    <img src="https://slm-assets2.secondlife.com/assets/3789218/lightbox/512x512%20PNG%20Landscape%20Texture%20-%20Blue%20Sky.jpg" />
+			    <div class="featured"></div>
+			    <div class="reveal"></div>
+			  </div>
+			</div>
+			</div>
+
+			<div class = "col-md-5 m-0 p-0 aboutme ">
+				<p class = "display-4 m-0 lh mynameis">MY<br>NAME<br>IS:</p>
+				<p class = "display-4 m-0 lh name">SUSAN<br>MAREK </p><br><br>
+				<p class ="name">Full stack web developer - coder, minimal UI aesthetic. <br>
 				Resume<br>
 				Linked In<br>
 				GitHub</p>
 				<!-- <img src="assets/images/susanccc.png" class="img-fluid photome m-0 p-0 float-right" alt="Susan Marek"> -->
 
 			</div>
-			<div class = "col-md-7 m-0 p-0 photome">
-				<img src="assets/images/susanccc.png" class="img-fluid photome m-0 p-0" alt="Susan Marek">
-			</div>
 
 
 
 		</div>
 
-		<div class = "row mx-auto p-4">
+		<div class = "row mx-auto pt-5">
 		<!-- <div class="pt-4 m-0 text-center"> -->
 			<p class = "mx-auto"><sup>___________________________</sup> &nbsp&nbsp&nbsp&nbspSOME OF MY WORK&nbsp&nbsp&nbsp&nbsp<sup>_____________________________</sup></p>
 		<!-- </div> -->
 		</div>
 
 		<!-- ist Row -->
-		<div class = "row p-4 gray">
+		<div class = "row gray px-5 mx-5 mb-5">
 			<div class = "col-md-4">
 				<div class="card shadow text-center">
 			  		<a href= "https://sjbmarek.github.io/Hangman-Game/" target="_blank">
@@ -99,7 +129,7 @@
 			</div>
 		</div>
 		<!-- 2nd Row -->
-		<div class = "row p-4 gray">
+		<div class = "row gray px-5 mx-5 mb-5">
 			<div class = "col-md-4">
 				<div class="card shadow text-center">
 			  		<a href= "https://sjbmarek.github.io/train-schedule/" target="_blank">
@@ -136,7 +166,7 @@
 			</div>
 		</div>
 		<!-- 3rd Row -->
-		<div class = "row p-4 gray">
+		<div class = "row gray px-5 mx-5 mb-5">
 			<div class = "col-md-4">
 				<div class="card shadow text-center">
 			  		<a href= "https://gentle-retreat-16287.herokuapp.com/" target="_blank">
@@ -169,7 +199,7 @@
 			</div>
 		</div>
 		<!-- 4th Row -->
-		<div class = "row p-4 gray">
+		<div class = "row gray px-5 mx-5 mb-5 pb-5">
 			<div class = "col-md-4">
 				<div class="card shadow text-center">
 			  		<a href= "https://stormy-bayou-84186.herokuapp.com" target="_blank">
@@ -247,6 +277,28 @@
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+ <script type="text/javascript">
+ 	var $reveal = $('.reveal');
+	$reveal.draggable({ 
+    axis: 'x',
+    containment: 'parent',
+    iframeFix: true,
+    refreshPositions: true,
+    drag: function()
+    {
+      var position = $(this).position();
+      var parentWidth = $(this).parent().width();
+      var width = (position.left / parentWidth) * 100
+      $('.featured').width(width + '%');
+    }
+  });
 
+$(window).resize(function() {       
+    $reveal.css('left', $('.featured').width()+'px')
+});
+
+
+
+ </script>
 </body>
 </html>
