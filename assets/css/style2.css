@@ -48,7 +48,15 @@ html {
 }
 /*body {
   margin-bottom: 60px;  Margin bottom by footer height 
+
 }*/
+
+.header {
+  background-color: #555;
+  height: 64px;
+}
+
+
 .footer {
   text-align: center;
   font-size: 10px;
@@ -57,7 +65,7 @@ html {
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color: #848486;
+  background-color: #555;
 }
 
 .photome {
@@ -163,7 +171,7 @@ html {
 }
 
 .reveal2:after {
-  content: "A";
+  content: "in";
   display: block;
   width: 50px;
   height: 50px;
@@ -177,12 +185,12 @@ html {
   font-size: 2.1rem;
   font-weight: bold;
   text-align: center;
-  line-height: 3.2rem;
+  line-height: 2.5rem;
   z-index: 900;
 }
 
 .reveal3:after {
-  content: "B";
+  content: url("../images/git.PNG");
   display: block;
   width: 50px;
   height: 50px;
@@ -193,9 +201,9 @@ html {
   position: absolute;
   left: 375px; top: 0; bottom: -340px;
   margin: auto;
-  font-size: 2.1rem;
-  font-weight: bold;
+  /*font-size: 2.1rem;*/
+  /*font-weight: bold;*/
   text-align: center;
-  line-height: 3.2rem;
+  line-height: 4.0rem;
   z-index: 900;
 }
