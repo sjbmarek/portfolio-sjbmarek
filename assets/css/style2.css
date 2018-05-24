@@ -47,8 +47,9 @@ html {
 }
 
 .header {
-  background-color: #555;
+  background-color: #fced91;
   height: 64px;
+  z-index:950;
 }
 
 
