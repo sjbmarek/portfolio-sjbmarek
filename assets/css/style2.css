@@ -9,12 +9,11 @@ body {
   font-size: 16px;
   line-height: 130%;
   color: #777777;
-  /*background-image: url("../images/concrete.png");*/
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 
 
-.photolabel {position: relative;
+/*.photolabel {position: relative;
     max-width: 258px;
     z-index: 2;
     top: -30%;
@@ -25,31 +24,27 @@ body {
     text-align: center;
     padding-top: 5%;
     font-family: 'Georgia', Times, Times New Roman, serif;
-  }
+  }*/
 
-a {color: #777777;}
+/*a {color: #777777;}*/
 
 .white {color: white;}
 
-.bottomspace {margin-bottom: 5px}
+./*bottomspace*/ {margin-bottom: 5px}
 
-.marek {width:400px;
+/*.marek {width:400px;
     height: 79px;
     padding-top: 30px;
     font-size: 36px;
     background-color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
- }
+ }*/
 
 
 html {
   position: relative;
   min-height: 100%;
 }
-/*body {
-  margin-bottom: 60px;  Margin bottom by footer height 
-
-}*/
 
 .header {
   background-color: #555;
@@ -58,14 +53,23 @@ html {
 
 
 .footer {
-  text-align: center;
-  font-size: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #555;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 64px;
+    line-height: 60px;
+    background-color: #555;
+}
+
+.footercontainer {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.footertext {
+    color: white;
+    font-size: 10px;
 }
 
 .photome {
@@ -99,13 +103,15 @@ html {
 }
 
 .gray {
-  background-color: #fafafa;
-
+  background-color: #eeeeee;
 }
 
-/*.graybg {
- background-color: #b5b5b6;
-}*/
+.line {
+
+  border-top: 3px;
+  border-style: solid;
+  border-color: #555;
+}
 
 .photosize {
   max-height: 150px;
@@ -137,7 +143,6 @@ html {
 .featured {
   position: absolute;
   background: url("../images/Susan7.jpg") no-repeat;
-  /*background: url("https://slm-assets2.secondlife.com/assets/3789218/lightbox/512x512%20PNG%20Landscape%20Texture%20-%20Blue%20Sky.jpg") no-repeat;*/
   background-size: auto 100%;
   width: 100%;
   height: 100%;
@@ -146,7 +151,6 @@ html {
   z-index: 900;
   height: 100%;
   border-left: 3px solid #555;
-  /*border-right: 6px solid #555;*/
   position: absolute;
   right: 0;
   cursor: col-resize;
@@ -201,8 +205,6 @@ html {
   position: absolute;
   left: 375px; top: 0; bottom: -340px;
   margin: auto;
-  /*font-size: 2.1rem;*/
-  /*font-weight: bold;*/
   text-align: center;
   line-height: 4.0rem;
   z-index: 900;
