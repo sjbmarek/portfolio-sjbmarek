@@ -53,6 +53,17 @@ html {
 }
 
 
+.arrow {
+  background-color: #555555d9;
+}
+
+.tooltip-inner {
+  background-color: #555555d9;
+}
+
+
+hr { background-color: white; height: 1px; border: 0; }
+
 .footer {
     position: absolute;
     bottom: 0;
