@@ -71,17 +71,20 @@ hr { background-color: white; height: 1px; border: 0; }
     height: 64px;
     line-height: 60px;
     background-color: #555;
+    z-index: 950;
 }
 
 .footercontainer {
     width: auto;
     max-width: 680px;
     padding: 0 15px;
+    z-index: 950;
 }
 
 .footertext {
     color: white;
     font-size: 10px;
+    z-index: 999;
 }
 
 .photome {
@@ -137,12 +140,12 @@ hr { background-color: white; height: 1px; border: 0; }
   height: 400px;
   margin: 0 auto;
 }
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
   .testContainer {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
-}
+}*/
 .hiddenImage {
   height: 100%;
   position: relative;
@@ -220,4 +223,21 @@ hr { background-color: white; height: 1px; border: 0; }
   text-align: center;
   line-height: 4.0rem;
   z-index: 900;
+}
+
+.halfcircle {
+  color: #f1f1f1;
+  background: #555;
+  position: absolute;
+  display:block;
+  left: 47%; 
+  top: 0; bottom: 90px;
+  margin: auto;
+  text-align: center;
+  z-index: 800;
+  font-size: 30px;
+  height: 45px;
+  width: 90px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
 }
