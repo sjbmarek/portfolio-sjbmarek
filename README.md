@@ -1,2 +1,10 @@
 # Portfolio
-Featuring coding projects ny Susan Marek.
+Featuring coding projects by Susan Marek.
+
+Simply built:
+  * HTML
+  * CSS
+    * Bootstrap
+    * reveal slider
+    * tooltips
+  
