@@ -185,7 +185,7 @@ hr { background-color: white; height: 1px; border: 0; }
   color: #f1f1f1;
   background: #555;
   position: absolute;
-  left: -25px; top: 0; bottom: -140px;
+  left: -26px; top: 0; bottom: -140px;
   margin: auto;
 }
 
@@ -230,7 +230,8 @@ hr { background-color: white; height: 1px; border: 0; }
   background: #555;
   position: absolute;
   display:block;
-  left: 47%; 
+  left: 0;
+  right: 0;
   top: 0; bottom: 90px;
   margin: auto;
   text-align: center;
